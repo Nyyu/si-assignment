@@ -18,7 +18,7 @@ const myLoop = setInterval(() => {
         diffAdj = "0".concat(diffAdj);
 
     // Clear loop if overdue
-    if (diffAdj === "58000") clearInterval(myLoop);
+    if (diffAdj === "100000") clearInterval(myLoop);
 
     axios({
         method: "post",
