@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const baseUrl = "https://adslindo.tk";
-const baseLogin = "20200017927";
+const baseLogin;
 
 let startingValue = "-1";
 const baseLength = "00000";
